@@ -227,9 +227,12 @@ $purple:#6244C5;
                 transform: scaleX(1);
                 transform-origin: bottom left;
             }
-            .fa-arrow-right{
-                padding-left: 10px;
-            }
+            .fa-arrow-right-long{
+                margin-left: 10px;
+                 transform: rotate(-45deg);
+                 height: 20px;
+                 font-size: 25px;
+             }
         }
 
     }
@@ -261,12 +264,13 @@ $purple:#6244C5;
         a{
             text-decoration: none;
             color: $black;
-            .basketball{
+            .fa-basketball{
                 font-size: 14px;
                 padding: 15px 17px;
                 border-radius: 50%;
                 background-color:#F6F6F6;
                 margin-left: 05px;
+                
                 &:hover{
                     background-color: $black;
                     color: white;
@@ -407,9 +411,12 @@ $purple:#6244C5;
         .c2icon{
             position: absolute;
             top: 0;
-            right: 100%;
+            right: 0%;
             margin-right: 15px;
             margin-top: -20px;
+            font-size: 50px;
+            color: $yellow;
+            transform: rotate(-45deg);
         }
         .tittle{
             margin-bottom: 25px;
@@ -558,6 +565,12 @@ $purple:#6244C5;
             padding-bottom: 80px;
             width: 100%;
             float: left;
+            .fa-arrow-right-long{
+                margin-left: 10px;
+                 transform: rotate(-45deg);
+                 height: 20px;
+                 font-size: 25px;
+             }
             ul{
                 list-style: none;
                 li{
@@ -576,6 +589,7 @@ $purple:#6244C5;
                         padding: 14px;
                         display: inline-block;
                         position: relative;
+                        
                         &::before{
                             content: '';
                             display: block;
@@ -798,6 +812,12 @@ $purple:#6244C5;
                             text-decoration: none;
                             color: black;
                             display: none;
+                            .fa-arrow-right-long{
+                                
+                                 transform: rotate(-45deg);
+                                 height: 20px;
+                                 font-size: 25px;
+                             }
                         }
                 }   }
             }
@@ -858,6 +878,12 @@ $purple:#6244C5;
                             text-decoration: none;
                             color: black;
                             display: none;
+                            .fa-arrow-right-long{
+                               
+                                 transform: rotate(-45deg);
+                                 height: 20px;
+                                 font-size: 25px;
+                             }
                         }
                 }   }
             }
@@ -1283,6 +1309,12 @@ $purple:#6244C5;
                         font-weight: 700;
                         position: relative;
                         display: inline-block;
+                        .fa-arrow-right-long{
+                            margin-left: 10px;
+                             transform: rotate(-45deg);
+                             height: 20px;
+                             font-size: 25px;
+                         }
                         &::after{
 
                             content: '';
@@ -1791,9 +1823,12 @@ $purple:#6244C5;
                     transform: scaleX(1);
                     transform-origin: bottom left;
                 }
-                .fa-arrow-right{
-                    padding-left: 10px;
-                }
+                .fa-arrow-right-long{
+                    margin-left: 10px;
+                     transform: rotate(-45deg);
+                     height: 20px;
+                     font-size: 25px;
+                 }
             }
 
         }
@@ -1824,7 +1859,7 @@ $purple:#6244C5;
             a{
                 text-decoration: none;
                 color: $black;
-                .basketball{
+                .fa-basketball{
                     font-size: 14px;
                     padding: 15px 17px;
                     border-radius: 50%;
@@ -1966,11 +2001,18 @@ $purple:#6244C5;
         width: 50%;
         position: relative;
         .c2icon{
+            font-size: 30px;
             position: absolute;
             top: 0;
             right: 100%;
             margin-right: 15px;
             margin-top: -20px;
+            font-size: 50px;
+            color: $yellow;
+            transform: rotate(-45deg);
+            .fa-rotate{
+                font-size: 30px;
+            }
         }
         .tittle{
             margin-bottom: 25px;
@@ -2118,6 +2160,12 @@ $purple:#6244C5;
             padding-bottom: 80px;
             width: 100%;
             float: left;
+            .fa-arrow-right-long{
+                margin-left: 10px;
+                 transform: rotate(-45deg);
+                 height: 20px;
+                 font-size: 25px;
+             }
             ul{
                 list-style: none;
                 li{
@@ -2306,7 +2354,7 @@ $purple:#6244C5;
                     transform-origin: bottom;
                     color: white;
                 }
-                &:hover .row .right a{
+                &:hover .row .right a {
                     color:white
                 }
                 .row{
@@ -2352,6 +2400,12 @@ $purple:#6244C5;
                             height: 25px;
                             text-decoration: none;
                             color: black;
+                            .fa-arrow-right-long{
+                                
+                                 transform: rotate(-45deg);
+                                 height: 20px;
+                                 font-size: 25px;
+                             }
                         }
                 }   }
             }
@@ -2410,6 +2464,12 @@ $purple:#6244C5;
                             height: 25px;
                             text-decoration: none;
                             color: black;
+                            .fa-arrow-right-long{
+                                margin-left: 10px;
+                                 transform: rotate(-45deg);
+                                 height: 20px;
+                                 font-size: 25px;
+                             }
                         }
                 }   }
             }
@@ -2832,6 +2892,12 @@ $purple:#6244C5;
                         font-weight: 700;
                         position: relative;
                         display: inline-block;
+                        .fa-arrow-right-long{
+                            margin-left: 10px;
+                             transform: rotate(-45deg);
+                             height: 20px;
+                             font-size: 25px;
+                         }
                         &::after{
 
                             content: '';
@@ -3327,8 +3393,11 @@ $purple:#6244C5;
                     transform: scaleX(1);
                     transform-origin: bottom left;
                 }
-                .fa-arrow-right{
-                    padding-left: 10px;
+                .fa-arrow-right-long{
+                   margin-left: 10px;
+                    transform: rotate(-45deg);
+                    height: 20px;
+                    font-size: 25px;
                 }
             }
 
@@ -3360,7 +3429,7 @@ $purple:#6244C5;
             a{
                 text-decoration: none;
                 color: $black;
-                .basketball{
+                .fa-basketball{
                     font-size: 14px;
                     padding: 15px 17px;
                     border-radius: 50%;
@@ -3508,6 +3577,9 @@ $purple:#6244C5;
             right: 100%;
             margin-right: 15px;
             margin-top: -20px;
+            font-size: 50px;
+            color: $yellow;
+            transform: rotate(-45deg);
         }
         .tittle{
             margin-bottom: 25px;
@@ -3656,6 +3728,12 @@ $purple:#6244C5;
             width: 100%;
             float: left;
             margin-left: -30px;
+            .fa-arrow-right-long{
+                margin-left: 10px;
+                 transform: rotate(-45deg);
+                 height: 20px;
+                 font-size: 25px;
+             }
             ul{
                 list-style: none;
                 li{
@@ -3670,7 +3748,7 @@ $purple:#6244C5;
                         font-family: $heading;
                         font-size: 16px;
                         font-weight: 700;
-                        padding: 20px 35px 21px;
+                        padding: 20px 32px 21px;
                         display: inline-block;
                         position: relative;
                         &::before{
@@ -3681,7 +3759,7 @@ $purple:#6244C5;
                             width: 120%;
                             height: 70px;
                             position: absolute;
-                            top: -10%;
+                            top: -2%;
                             left: -11%;
                             transform: scaleX(0);
                             transform-origin: bottom right;
@@ -3836,10 +3914,13 @@ $purple:#6244C5;
                 border-top: 1px solid $black;
                 border-bottom: 1px solid $black;
                 color: $black;
-                &:hover{
+                &:hover  {
                     background-color: $purple;
                     transition: 0.5s ease-out;
                     transform-origin: bottom;
+                    color: white;
+                }
+                &:hover .row .right .fa-arrow-right-long{
                     color: white;
                 }
                 .row{
@@ -3884,6 +3965,13 @@ $purple:#6244C5;
                             height: 25px;
                             text-decoration: none;
                             color: white;
+                            .fa-arrow-right-long{
+                                
+                                 transform: rotate(-45deg);
+                                 height: 20px;
+                                 font-size: 25px;
+                                 color: $black;
+                             }
                         }
                 }   }
             }
@@ -3896,6 +3984,10 @@ $purple:#6244C5;
                     transform-origin: bottom;
                     color: white;
                 }
+                &:hover .row .right .fa-arrow-right-long{
+                    color: white;
+                }
+                    
                 .row{
 
                     width: 100%;
@@ -3938,6 +4030,12 @@ $purple:#6244C5;
                             height: 25px;
                             text-decoration: none;
                             color: black;
+                            .fa-arrow-right-long{
+                                
+                                 transform: rotate(-45deg);
+                                 height: 20px;
+                                 font-size: 25px;
+                             }
                         }
                 }   }
             }
@@ -4348,6 +4446,12 @@ $purple:#6244C5;
                         font-weight: 700;
                         position: relative;
                         display: inline-block;
+                        .fa-arrow-right-long{
+                            margin-left: 10px;
+                             transform: rotate(-45deg);
+                             height: 20px;
+                             font-size: 25px;
+                         }
                         &::after{
 
                             content: '';
